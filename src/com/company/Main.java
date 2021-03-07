@@ -14,7 +14,7 @@ public class Main {
                 "Olá Bonner e companheiros, é um prazer estar aqui",
                 "Minha proposta para saúde é ...",
                 "Minha proposta para educação é ...",
-                "Obrigado e votem em mim"
+                "Obrigado companheiros e votem em mim"
         });
 
         ApresentadorMediador mediadorBonner = new ApresentadorMediador("Willian Bonner");
