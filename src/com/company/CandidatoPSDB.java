@@ -4,14 +4,9 @@ public class CandidatoPSDB extends Candidato {
     private int contador = 0;
     private String[] menssagens;
 
-    public CandidatoPSDB(String nome){
+    public CandidatoPSDB(String nome, String[] menssagens){
         super(nome);
-        this.menssagens = new String[] {
-                "Olá Bonner e amigos, é um prazer estar aqui",
-                "Minha proposta para saúde é ...",
-                "Minha proposta para educação é ...",
-                "Obrigado Brasil e votem em mim"
-        };
+        this.menssagens = menssagens;
     }
 
     @Override

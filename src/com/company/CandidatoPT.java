@@ -4,14 +4,9 @@ public class CandidatoPT extends Candidato {
     private int contador = 0;
     private String[] menssagens;
 
-    public CandidatoPT(String nome){
+    public CandidatoPT(String nome, String[] menssagens){
         super(nome);
-        this.menssagens = new String[] {
-                "Olá Bonner e companheiros, é um prazer estar aqui",
-                "Minha proposta para saúde é ...",
-                "Minha proposta para educação é ...",
-                "Obrigado e votem em mim"
-        };
+        this.menssagens = menssagens;
     }
 
     @Override
