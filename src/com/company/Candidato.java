@@ -17,6 +17,10 @@ public abstract class Candidato {
         this.mediador = mediador;
     }
 
+    public void serMediadoDuranteDebate(){
+        this.mediador.mediarDebate();
+    }
+
     public String getNome(){
         return this.nome;
     }
